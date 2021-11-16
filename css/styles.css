@@ -58,6 +58,9 @@ img {
   list-style: none;
 }
 /* nav site */
+.header {
+  align-items: center;
+}
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -88,8 +91,8 @@ img {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
   display: block;
-  padding-top: 31px;
-  padding-bottom: 31px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-link:hover,
@@ -285,6 +288,13 @@ img {
 }
 .footer {
   background-color: var(--footer-bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.logo {
+  padding-left: 40px;
+  margin-bottom: 20px;
+  display: flex;
 }
 .footer-map {
   font-weight: 400;
@@ -306,6 +316,10 @@ img {
 .footer-contact:hover,
 .footer-contact:focus {
   color: var(--accent-color);
+}
+.footer-item:not(:last-child) {
+  display: block;
+  margin-bottom: 9px;
 }
 
 /* PORTFOLIO */
