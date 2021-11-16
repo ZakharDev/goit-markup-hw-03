@@ -111,9 +111,7 @@ img {
 .header-list {
   display: flex;
 }
-.container {
-  display: flex;
-}
+
 .header-adress {
   display: flex;
   margin-left: auto;
@@ -143,8 +141,9 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
+  width: 696px;
+  height: 120px;
 
-  margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -156,26 +155,23 @@ img {
   line-height: 1.87;
   letter-spacing: 0.06em;
   text-align: center;
+  align-items: center;
 
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+
   width: 200px;
   height: 50px;
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
   border-radius: 4px;
-
-  letter-spacing: 0.06em;
 
   border: none;
   cursor: pointer;
   display: block;
   margin: auto;
-  min-width: 200px;
+  width: 200px;
   height: 50px;
   padding: 10px 32px;
+  margin-top: 30px;
 }
 
 .hero-button:hover,
